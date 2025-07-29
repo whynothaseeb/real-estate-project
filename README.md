@@ -1,12 +1,42 @@
-# React + Vite
+My Responsive Portfolio Website
+This project is a modern, responsive portfolio website built with React and styled using Tailwind CSS. It features a dynamic header, a projects section with an interactive slider, and a testimonials section with engaging hover effects.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies Used
+React: A JavaScript library for building user interfaces.
 
-Currently, two official plugins are available:
+Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Responsive Navigation Bar:
 
-## Expanding the ESLint configuration
+Adapts layout for different screen sizes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hamburger menu for mobile view with smooth slide-in/out animation.
+
+Fixed to the top for easy access.
+
+Dynamic Header Section:
+
+Full-screen background image.
+
+Responsive heading text that adjusts size based on the viewport.
+
+Call-to-action buttons with uniform sizing across various screen sizes.
+
+Interactive Projects Slider:
+
+Displays project cards in a carousel format.
+
+Responsive display: 1 card on small screens, 2 on medium, 3 on large.
+
+Smooth transitions between slides.
+
+Hover Effect: Project detail cards slide down to reveal more of the image, and the entire card scales up slightly with an enhanced shadow for a "pop out" effect.
+
+Engaging Testimonials Section:
+
+Displays customer feedback in a grid layout.
+
+Hover Effect: Testimonial cards "pop out" by scaling up slightly and gaining a more prominent shadow, creating a visually appealing interaction.
+
+Clean and Modular Code: Organized into reusable React components.
